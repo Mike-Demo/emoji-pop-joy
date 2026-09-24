@@ -1,26 +1,33 @@
-# Emoji Fun
+# Emoji Roll
 
-Build a tiny same app that shows a random emoji on a button click.
+A tiny app that shows a random emoji each time you click the button.
 
-This project was built with [Lovable](https://lovable.dev).
+- Lovable URL: https://emoji-pop-joy.lovable.app
 
-**Live app**: https://emoji-pop-joy.lovable.app
+## Features
+- One-click random emoji
+- Fully static, prerendered page — no backend, no secrets
 
-## Build with Lovable
+## Tech Stack
+TanStack Start (React 19), Vite, Tailwind CSS v4, shadcn/ui. All dependencies are MIT-licensed open source.
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/3c71f2d7-9d6c-4c94-9563-5783ac52d363).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Local Development
+Requires Node 20+ (or Bun).
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
+npm install
+npm run dev     # http://localhost:8080
+npm run build   # static output in dist/client
 ```
+
+## SpaceFast Deployment
+1. Edit in Lovable; changes sync to GitHub.
+2. Connect the GitHub repo in SpaceFast.
+3. Build command: `npm run build`. Publish directory: `dist/client`.
+
+## Documentation
+- [SPACEFAST.md](SPACEFAST.md)
+- [docs/architecture.md](docs/architecture.md)
+- [docs/deployment.md](docs/deployment.md)
+- [docs/environment.md](docs/environment.md)
+- [roadmap.md](roadmap.md)
