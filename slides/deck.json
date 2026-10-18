@@ -1,0 +1,241 @@
+{
+  "boltSlidesVersion": 1,
+  "boltSlidesId": "11011050-f9d6-4d43-8a9e-3e43af51bbaf",
+  "deck": {
+    "title": "Emoji Pop Joy — pop. smile. repeat.",
+    "transition": "fade",
+    "font": "outfit",
+    "accent": "#FFD43B"
+  },
+  "slides": [
+    {
+      "id": "s1",
+      "position": 0,
+      "layout": "cover",
+      "props": {
+        "kicker": "A tiny browser game",
+        "title": "Emoji ==Pop== Joy.",
+        "subtitle": "pop. smile. repeat.",
+        "foot": "github.com/Mike-Demo/emoji-pop-joy"
+      },
+      "background": {
+        "type": "color",
+        "color": "var(--bg)"
+      },
+      "animation": "cascade",
+      "transition": null,
+      "nav": null,
+      "notes": "Open light: this is a thirty-second toy, not a pitch for a platform. Say the tagline out loud — pop, smile, repeat.",
+      "status": "none"
+    },
+    {
+      "id": "s2",
+      "position": 1,
+      "layout": "manifesto",
+      "props": {
+        "label": "The idea",
+        "text": "Not every game needs a quest. Some just need to be a **thirty-second mood lift** — a screen full of bouncing emojis and one simple pleasure: pop them."
+      },
+      "background": {
+        "type": "color",
+        "color": "var(--bg)"
+      },
+      "animation": "cascade",
+      "transition": null,
+      "nav": null,
+      "notes": "Land the thesis: no story, no grind, no pressure. The whole point is a small burst of delight when you need one.",
+      "status": "none"
+    },
+    {
+      "id": "s3",
+      "position": 2,
+      "layout": "steps",
+      "props": {
+        "kicker": "How it plays",
+        "title": "Tap. Burst. Again.",
+        "items": [
+          {
+            "title": "Emojis float and bounce",
+            "body": "The screen fills with gently drifting emojis."
+          },
+          {
+            "title": "Tap or click to pop",
+            "body": "Each pop lands with a satisfying burst."
+          },
+          {
+            "title": "Combos and gentle escalation",
+            "body": "Things speed up playfully — lively, never stressful."
+          }
+        ]
+      },
+      "background": {
+        "type": "color",
+        "color": "var(--bg)"
+      },
+      "animation": "cascade",
+      "transition": null,
+      "nav": null,
+      "notes": "Walk the one interaction loop. Emphasise the last step: escalation is a giggle, not a difficulty curve.",
+      "status": "none"
+    },
+    {
+      "id": "s4",
+      "position": 3,
+      "layout": "contrast",
+      "props": {
+        "kicker": "Made for micro-breaks",
+        "title": "Thirty seconds, any screen.",
+        "left": {
+          "label": "In your pocket",
+          "title": "Phone moments",
+          "points": [
+            "In a queue, on the bus",
+            "Loads instantly, nothing to install",
+            "No account, no sign-up"
+          ]
+        },
+        "right": {
+          "label": "At your desk",
+          "title": "Desktop moments",
+          "points": [
+            "Between meetings, during a long build",
+            "One click in a browser tab",
+            "Equally at home on a big screen"
+          ]
+        }
+      },
+      "background": {
+        "type": "color",
+        "color": "var(--bg)"
+      },
+      "animation": "cascade",
+      "transition": null,
+      "nav": null,
+      "notes": "Same game, two contexts. The point is zero friction: if opening it takes longer than playing it, it has failed.",
+      "status": "none"
+    },
+    {
+      "id": "s5",
+      "position": 4,
+      "layout": "pillars",
+      "props": {
+        "title": "Joy-first design.",
+        "items": [
+          {
+            "title": "Bright colour",
+            "body": "Emojis pop against a dark stage."
+          },
+          {
+            "title": "Bouncy motion",
+            "body": "Everything springs; nothing snaps."
+          },
+          {
+            "title": "Sound-free feedback",
+            "body": "Kind to shared spaces and open offices."
+          },
+          {
+            "title": "No fail state",
+            "body": "You cannot lose at Emoji Pop Joy."
+          }
+        ]
+      },
+      "background": {
+        "type": "color",
+        "color": "var(--bg)"
+      },
+      "animation": "cascade",
+      "transition": null,
+      "nav": null,
+      "notes": "Every choice removes a reason to stop smiling. The no-fail-state line is the one to dwell on.",
+      "status": "none"
+    },
+    {
+      "id": "s6",
+      "position": 5,
+      "layout": "bento",
+      "props": {
+        "kicker": "Key features",
+        "title": "Everything it does. That's the list.",
+        "tiles": [
+          {
+            "k": "01",
+            "title": "One-tap popping",
+            "body": "Click, tap, or mash — every input lands a burst."
+          },
+          {
+            "k": "02",
+            "title": "Combo chains",
+            "body": "Rapid pops stack multipliers for bigger bursts.",
+            "variant": "accent"
+          },
+          {
+            "k": "03",
+            "title": "Gentle escalation",
+            "body": "More emojis, more drift — playful pacing, no pressure."
+          },
+          {
+            "k": "04",
+            "title": "Runs anywhere",
+            "body": "A single page in any modern browser, phone or desktop."
+          },
+          {
+            "k": "05",
+            "title": "Zero setup",
+            "body": "No install, no sign-up, no ads — just open and pop."
+          }
+        ]
+      },
+      "background": {
+        "type": "color",
+        "color": "var(--bg)"
+      },
+      "animation": "cascade",
+      "transition": null,
+      "nav": null,
+      "notes": "Skim, don't read. The features are deliberately small — the value is how little there is to learn.",
+      "status": "none"
+    },
+    {
+      "id": "s7",
+      "position": 6,
+      "layout": "bigNumber",
+      "props": {
+        "kicker": "Status",
+        "value": "100%",
+        "caption": "live and playable right now — open source under github.com/Mike-Demo/emoji-pop-joy",
+        "foot": "Fork it, remix it, ship your own pops."
+      },
+      "background": {
+        "type": "color",
+        "color": "var(--bg)"
+      },
+      "animation": "cascade",
+      "transition": null,
+      "nav": null,
+      "notes": "It is not a mock-up — it is live. Open source means the community can add their own emoji sets and twists.",
+      "status": "none"
+    },
+    {
+      "id": "s8",
+      "position": 7,
+      "layout": "cover",
+      "props": {
+        "kicker": "Thanks for popping by",
+        "title": "Go pop ==something==.",
+        "subtitle": "github.com/Mike-Demo/emoji-pop-joy",
+        "foot": "Emoji Pop Joy · pop. smile. repeat."
+      },
+      "background": {
+        "type": "gradient",
+        "from": "#141005",
+        "to": "#06080d",
+        "angle": 160
+      },
+      "animation": "zoom",
+      "transition": "zoom",
+      "nav": null,
+      "notes": "Close with the invitation: open the repo, open the game, take thirty seconds. Then stop talking.",
+      "status": "none"
+    }
+  ]
+}
